@@ -1,0 +1,76 @@
+@charset "UTF-8";
+.center-image {
+  background-size: cover;
+  background-position: center;
+}
+
+body .btn, body .btn:hover {
+  color: white;
+  background-color: #25282E;
+  padding: 8px 16px;
+}
+#header {
+  margin-top: 20px;
+  border-bottom: 1px solid black;
+}
+#header .logo-container {
+  display: flex;
+  justify-content: center;
+}
+#header .logo-container .logo {
+  width: 70px;
+}
+#header .logo-container h1 {
+  padding-top: 10px;
+}
+#header p {
+  text-align: center;
+}
+
+#navbar {
+  text-align: center;
+  padding: 20px;
+}
+#navbar .row {
+  display: inline;
+}
+#navbar .row a {
+  color: black;
+  text-decoration: none;
+}
+.main-image {
+  background-image: url(/img/noruega.jpg);
+  height: 400px;
+  position: relative;
+}
+.main-image .main-image-info {
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  padding: 25px;
+}
+
+#gallery-container #gallery-title {
+  padding: 20px;
+  text-align: center;
+}
+#gallery-container .col-xs-12, #gallery-container .col-md-6 {
+  margin-bottom: 20px;
+}
+#gallery-container #img-1 {
+  background-image: url(../img/espanha.jpg);
+}
+#gallery-container #img-2 {
+  background-image: url(../img/frança.jpg);
+}
+#gallery-container #img-3 {
+  background-image: url(../img/suica.jpg);
+}
+#gallery-container #img-4 {
+  background-image: url(../img/alemanha.jpg);
+}
+#gallery-container .small-image-container {
+  height: 250px;
+  margin-bottom: 5px;
+}/*# sourceMappingURL=main.css.map */
