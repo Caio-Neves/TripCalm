@@ -73,4 +73,9 @@ body .btn, body .btn:hover {
 #gallery-container .small-image-container {
   height: 250px;
   margin-bottom: 5px;
+  max-width: 100%;
+  transition: all 0.3s;
+}
+#gallery-container .small-image-container:hover {
+  transform: scale(1.03);
 }/*# sourceMappingURL=main.css.map */
