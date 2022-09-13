@@ -10,7 +10,7 @@
         }
     }
 
-    .main-image-info{
+    .main-image{
         display: none;
     }
  }
@@ -34,6 +34,10 @@
 // GALLERY IMAGE
 
 #gallery-container{
+
+    h3{
+        font-size: 30px;
+    }
     
     #gallery-title{
         padding: 20px;

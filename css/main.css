@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.secondary-color {
+  font-size: 20px;
+}
+
 .center-image {
   background-size: cover;
   background-position: center;
@@ -8,6 +12,7 @@ body .btn, body .btn:hover {
   color: white;
   background-color: #25282E;
   padding: 8px 16px;
+  font-size: 20px;
 }
 #header {
   margin-top: 20px;
@@ -25,6 +30,8 @@ body .btn, body .btn:hover {
 }
 #header p {
   text-align: center;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 #navbar {
@@ -35,9 +42,15 @@ body .btn, body .btn:hover {
   display: inline;
 }
 #navbar .row a {
-  color: black;
+  color: rgb(29, 26, 26);
   text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
 }
+#navbar .row a:hover {
+  border-bottom: 1px solid black;
+}
+
 footer {
   border-top: 1px solid #ccc;
 }
@@ -60,7 +73,7 @@ footer p {
     font-size: 40px;
     margin-top: 10px;
   }
-  .main-image-info {
+  .main-image {
     display: none;
   }
 }
@@ -77,6 +90,9 @@ footer p {
   padding: 25px;
 }
 
+#gallery-container h3 {
+  font-size: 30px;
+}
 #gallery-container #gallery-title {
   padding: 20px;
   text-align: center;
