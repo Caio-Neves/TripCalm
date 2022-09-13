@@ -57,3 +57,28 @@ body .btn{
     }
     }
 }
+
+// FOOTER
+
+footer {
+    border-top: 1px solid #ccc;
+
+    #icons{
+        text-align: center;
+
+        .bi{
+            font-size: 30px;
+            color: black;
+            text-align: center;
+        }
+    }
+        
+    p{
+        text-align: center;
+        padding: 30px;
+        font-size: 20px;
+    }
+}
+
+
+
