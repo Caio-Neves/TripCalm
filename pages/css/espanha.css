@@ -1,0 +1,49 @@
+/* MAIN IMAGE */
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: left;
+    padding-top: 30px;
+    
+}
+
+.banner{
+    background-image: url("../img/banner-espanha.jpg");
+    background-position: center;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+/* CONTENT */
+figcaption{
+    text-align: center;
+}
+.container .row p{
+    font-size: 20px;
+    margin: 20px auto;
+    width: 80%;
+}
+.content-article{
+    text-align: justify;
+}
+#img1{
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    background-image: url("../img/barcelona.jpg");
+}
+#img2{
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    background-image: url("../img/sevilla.jpg");
+}
+#img3{
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    background-image: url("../img/granada.jpg");
+}
